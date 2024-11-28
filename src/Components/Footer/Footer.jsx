@@ -38,10 +38,11 @@ const TextButton = styled(Link)({
 });
 
 const StyledFooter = styled(Box)({
-  width: '100%',
-  display: 'flex',
-  justifyContent: 'center',
   margin: '15px 0 15px 0',
+  transform: 'translateX(-50%)',
+  left: '50%',
+  position: 'absolute',
+  bottom: 0,
 });
 
 export default function Footer() {
