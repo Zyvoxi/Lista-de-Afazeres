@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { Box } from '@mui/material';
-import ToDoTable from './Components/Table/Table';
-import Footer from './Components/Footer/Footer';
+import ToDoTable from './Table/Table';
 
 export default function App() {
   return (
@@ -11,7 +10,6 @@ export default function App() {
       }}
     >
       <ToDoTable />
-      <Footer />
     </Box>
   );
 }

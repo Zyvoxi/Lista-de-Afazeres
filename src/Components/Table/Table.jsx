@@ -23,6 +23,7 @@ import FirstPageIcon from '@mui/icons-material/FirstPage';
 import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 import LastPageIcon from '@mui/icons-material/LastPage';
+import Footer from './Extras/Footer';
 import PropTypes from 'prop-types';
 
 const StyledButton = styled(Button)({
@@ -415,7 +416,7 @@ export default function ToDoTable() {
                   sx={{
                     position: 'sticky',
                     bottom: 0,
-                    backgroundColor: 'white', // Ajuste se necessário
+                    backgroundColor: 'white',
                     zIndex: 1, // Para garantir que o footer esteja acima de outros elementos
                   }}
                 />
@@ -424,6 +425,7 @@ export default function ToDoTable() {
           </Table>
         </TableContainer>
       </Box>
+      <Footer />
     </>
   );
 }

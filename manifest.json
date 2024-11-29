@@ -1,0 +1,16 @@
+{
+  "name": "Lista de Afazeres - Zyvoxi",
+  "short_name": "L.D.A.",
+  "description": "Gerencie sua lista de afazeres de forma simples e eficiente com o aplicativo Zyvoxi. Mantenha-se organizado e produtivo.",
+  "gcm_sender_id": "",
+  "gcm_user_visible_only": true,
+  "start_url": "/lista-de-afazeres/",
+  "permissions": [
+    "gcm"
+  ],
+  "scope": "/lista-de-afazeres/",
+  "orientation": "portrait",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}

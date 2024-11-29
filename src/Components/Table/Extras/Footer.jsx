@@ -53,11 +53,14 @@ export default function Footer() {
           display: 'flex',
         }}
       >
-        Feito por &nbsp;
+        Feito por&nbsp;
         <TextButton
           href='https://github.com/Zyvoxi'
           target='_blank'
           rel='noopener noreferrer'
+          sx={{
+            transform: 'translateY(2px)',
+          }}
         >
           Zyvoxi
         </TextButton>
